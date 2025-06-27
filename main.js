@@ -35,8 +35,12 @@ function calculaTempo (tempoObjetivo) {
     let anos = Math.floor (dias / 365);
 
     segundos %= 60;
+
     minutos %= 60;
+
     horas %= 60;
+
     dias %= 365;
+    
     return anos + "Anos" + dias + "Dias" + horas + "Horas"+ minutos + "Minutos" + segundos + "Segundos";
 }
